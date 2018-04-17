@@ -1,0 +1,89 @@
+#main {
+    background-color: #BBF3DB;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #F128B7;
+    text-shadow: 3px 3px #4C18DC;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3 {
+    font-weight: normal;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F128B7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.user {
+    font-size: small;
+    padding: 10px;
+}
+
+.comment {
+    padding-left: 30px;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+.column {
+    float: left;
+    padding: 0px;
+}
+
+.left {
+    width: 15%;
+}
+
+.right {
+    width: 80%;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
