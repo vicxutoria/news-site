@@ -142,7 +142,7 @@
                     <?php
                     }
                     
-                    $stmt->close();
+                    $stmt->close(); 
                 }
                 ?>
             </div>

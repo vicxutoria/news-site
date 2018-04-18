@@ -20,4 +20,4 @@ $stmt->close();
 $_SESSION["story_edit_success"] = true;
 header("Location: userpage.php");
 exit;
-?>
+?> 

@@ -11,7 +11,7 @@
                 News Site
             </a>
         </h1>
-        <div class="row">
+        <div class="row"> 
             <div class="column left">
                 <?php
                 session_start();

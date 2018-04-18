@@ -16,4 +16,4 @@ $stmt->close();
 $_SESSION["comment_edit_success"] = true;
 header("Location: userpage.php");
 exit;
-?>
+?> 

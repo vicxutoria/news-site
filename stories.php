@@ -24,4 +24,4 @@ $stmt->close();
 $_SESSION["story_success"] = true;
 header("Location: storycreation.php");
 exit;
-?>
+?> 

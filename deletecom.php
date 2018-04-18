@@ -15,4 +15,4 @@ $stmt->close();
 $_SESSION["comment_delete_success"] = true;
 header("Location: userpage.php");
 exit;
-?>
+?> 

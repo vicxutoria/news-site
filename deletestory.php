@@ -27,4 +27,4 @@ $stmt->close();
 $_SESSION["story_delete_success"] = true;
 header("Location: userpage.php");
 exit;
-?>
+?> 

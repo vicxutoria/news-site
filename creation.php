@@ -53,7 +53,7 @@ $stmt->close();
 // Used to determine if passwords matched
 if($password != $pass_conf){
     $_SESSION["pass_fail"] = true;
-    header("Location: usercreation.php");
+    header("Location: usercreation.php"); 
     exit;
 }
 

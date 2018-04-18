@@ -19,4 +19,4 @@ $stmt->close();
 
 header("Location: comments.php");
 exit;
-?>
+?> 
